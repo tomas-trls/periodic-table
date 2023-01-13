@@ -1,3 +1,4 @@
 {
-  "liveSassCompile.settings.showOutputWindowOn": "Error"
+  "liveSassCompile.settings.showOutputWindowOn": "Error",
+  "liveServer.settings.port": 5501
 }

@@ -29,6 +29,8 @@ body {
 .periodic__item:hover {
   transform: scale(1.5);
   transition: ease-in 200ms;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 .periodic__item .periodic__element {
   -webkit-text-decoration: underline dashed black 3px;
@@ -49,93 +51,70 @@ body {
 }
 .periodic__react-non-metal:hover {
   background-color: rgb(0, 99, 105);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__alkali-metal {
   background-color: rgb(143, 105, 168);
 }
 .periodic__alkali-metal:hover {
   background-color: rgb(150, 0, 250);
-  color: white;
 }
 .periodic__alkaline-earth-metal {
   background-color: rgb(107, 178, 138);
 }
 .periodic__alkaline-earth-metal:hover {
   background-color: rgb(0, 255, 110);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__trans-metal {
   background-color: rgb(61, 142, 189);
 }
 .periodic__trans-metal:hover {
   background-color: rgb(0, 162, 255);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__metalloid {
   background-color: rgb(50, 165, 85);
 }
 .periodic__metalloid:hover {
   background-color: rgb(1, 171, 52);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__post-trans-metal {
   background-color: rgb(61, 142, 189);
 }
 .periodic__post-trans-metal:hover {
   background-color: rgb(0, 162, 255);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__react-non-metal--red {
   background-color: rgb(151, 61, 61);
 }
 .periodic__react-non-metal--red:hover {
   background-color: rgb(159, 0, 0);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__halogen {
   background-color: rgb(199, 159, 74);
 }
 .periodic__halogen:hover {
   background-color: rgb(255, 174, 0);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__noble-gas {
   background-color: rgb(193, 190, 1);
 }
 .periodic__noble-gas:hover {
   background-color: rgb(255, 251, 0);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__lanthanide {
   background-color: rgb(119, 175, 203);
 }
 .periodic__lanthanide:hover {
   background-color: rgb(0, 170, 255);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__actinide {
   background-color: rgb(134, 174, 66);
 }
 .periodic__actinide:hover {
   background-color: rgb(162, 255, 0);
-  color: white;
-  text-shadow: 1px 1px black;
 }
 .periodic__unknown-prop {
   background-color: rgb(128, 115, 138);
 }
 .periodic__unknown-prop:hover {
   background-color: rgb(117, 45, 172);
-  color: white;
-  text-shadow: 1px 1px black;
 }/*# sourceMappingURL=style.css.map */

@@ -30,6 +30,8 @@ body {
     &:hover {
       transform: scale(1.5);
       transition: ease-in 200ms;
+      color: white;
+      text-shadow: 1px 1px black;
     }
 
     .periodic {
@@ -54,8 +56,6 @@ body {
     background-color: rgb(70, 107, 109);
     &:hover {
       background-color: rgb(0, 99, 105);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -63,8 +63,6 @@ body {
     background-color: rgb(143, 105, 168);
     &:hover {
       background-color: rgb(150, 0, 250);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -72,8 +70,6 @@ body {
     background-color: rgb(107, 178, 138);
     &:hover {
       background-color: rgb(0, 255, 110);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -81,8 +77,6 @@ body {
     background-color: rgb(61, 142, 189);
     &:hover {
       background-color: rgb(0, 162, 255);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -90,8 +84,6 @@ body {
     background-color: rgb(50, 165, 85);
     &:hover {
       background-color: rgb(1, 171, 52);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -99,8 +91,6 @@ body {
     background-color: rgb(61, 142, 189);
     &:hover {
       background-color: rgb(0, 162, 255);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -108,8 +98,6 @@ body {
     background-color: rgb(151, 61, 61);
     &:hover {
       background-color: rgb(159, 0, 0);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -117,8 +105,6 @@ body {
     background-color: rgb(199, 159, 74);
     &:hover {
       background-color: rgb(255, 174, 0);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -126,8 +112,6 @@ body {
     background-color: rgb(193, 190, 1);
     &:hover {
       background-color: rgb(255, 251, 0);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -135,8 +119,6 @@ body {
     background-color: rgb(119, 175, 203);
     &:hover {
       background-color: rgb(0, 170, 255);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -144,8 +126,6 @@ body {
     background-color: rgb(134, 174, 66);
     &:hover {
       background-color: rgb(162, 255, 0);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 
@@ -153,8 +133,6 @@ body {
     background-color: rgb(128, 115, 138);
     &:hover {
       background-color: rgb(117, 45, 172);
-      color: white;
-      text-shadow: 1px 1px black;
     }
   }
 }
