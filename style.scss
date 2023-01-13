@@ -37,60 +37,123 @@ body {
         text-decoration: underline dashed $color-black 3px;
         text-align: center;
         width: 50%;
-        margin-bottom: 2px;
+        margin-bottom: 6px;
         font-size: 22px;
-        //border-bottom: 2px dashed black;
       }
 
       &__number {
         align-self: flex-start;
         justify-self: end;
         font-size: 10px;
+        padding: 0 0px 3px 3px;
       }
     }
   }
 
   &__react-non-metal {
     background-color: rgb(70, 107, 109);
+    &:hover {
+      background-color: rgb(0, 99, 105);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__alkali-metal {
     background-color: rgb(143, 105, 168);
+    &:hover {
+      background-color: rgb(150, 0, 250);
+      color: white;
+    }
   }
 
   &__alkaline-earth-metal {
     background-color: rgb(107, 178, 138);
+    &:hover {
+      background-color: rgb(0, 255, 110);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__trans-metal {
-    background-color: rgb(177, 177, 249);
+    background-color: rgb(61, 142, 189);
+    &:hover {
+      background-color: rgb(0, 162, 255);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__metalloid {
-    background-color: olive;
+    background-color: rgb(50, 165, 85);
+    &:hover {
+      background-color: rgb(1, 171, 52);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__post-trans-metal {
-    background-color: lightgreen;
+    background-color: rgb(61, 142, 189);
+    &:hover {
+      background-color: rgb(0, 162, 255);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
+  }
+
+  &__react-non-metal--red {
+    background-color: rgb(151, 61, 61);
+    &:hover {
+      background-color: rgb(159, 0, 0);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__halogen {
-    background-color: violet;
+    background-color: rgb(199, 159, 74);
+    &:hover {
+      background-color: rgb(255, 174, 0);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__noble-gas {
-    background-color: orange;
+    background-color: rgb(193, 190, 1);
+    &:hover {
+      background-color: rgb(255, 251, 0);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__lanthanide {
-    background-color: aqua;
+    background-color: rgb(119, 175, 203);
+    &:hover {
+      background-color: rgb(0, 170, 255);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__actinide {
-    background-color: lightblue;
+    background-color: rgb(134, 174, 66);
+    &:hover {
+      background-color: rgb(162, 255, 0);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 
   &__unknown-prop {
-    background-color: grey;
+    background-color: rgb(128, 115, 138);
+    &:hover {
+      background-color: rgb(117, 45, 172);
+      color: white;
+      text-shadow: 1px 1px black;
+    }
   }
 }
