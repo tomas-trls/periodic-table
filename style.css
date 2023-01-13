@@ -4,31 +4,58 @@
   margin: 0;
 }
 
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
 .periodic {
-  margin: 13% auto 0;
   display: grid;
-  width: 1000px;
-  grid-template: repeat(9, 55.5555555556px)/repeat(18, 1fr);
+  width: 1200px;
+  grid-template: repeat(9, 66.6666666667px)/repeat(18, 66.6666666667px);
 }
 .periodic__item {
-  border: 1px solid black;
+  margin: 2.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 4px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.periodic__empty {
-  background-color: aqua;
+.periodic__item:hover {
+  transform: scale(1.5);
+  transition: ease-in 200ms;
+}
+.periodic__item .periodic__element {
+  -webkit-text-decoration: underline dashed black 3px;
+          text-decoration: underline dashed black 3px;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 2px;
+  font-size: 22px;
+}
+.periodic__item .periodic__number {
+  align-self: flex-start;
+  justify-self: end;
+  font-size: 10px;
 }
 .periodic__react-non-metal {
-  background-color: yellow;
+  background-color: rgb(70, 107, 109);
 }
 .periodic__alkali-metal {
-  background-color: rgb(255, 143, 143);
+  background-color: rgb(143, 105, 168);
 }
 .periodic__alkaline-earth-metal {
-  background-color: rgba(121, 0, 121, 0.5);
+  background-color: rgb(107, 178, 138);
 }
 .periodic__trans-metal {
   background-color: rgb(177, 177, 249);
 }
-.periodic___metalloid {
+.periodic__metalloid {
   background-color: olive;
 }
 .periodic__post-trans-metal {
@@ -39,4 +66,13 @@
 }
 .periodic__noble-gas {
   background-color: orange;
+}
+.periodic__lanthanide {
+  background-color: aqua;
+}
+.periodic__actinide {
+  background-color: lightblue;
+}
+.periodic__unknown-prop {
+  background-color: grey;
 }/*# sourceMappingURL=style.css.map */

@@ -1,39 +1,72 @@
+$color-black: black;
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-.periodic {
-  margin: 13% auto 0;
-  display: grid;
-  width: 1000px;
-  grid-template: repeat(9, calc(1000px / 18)) / repeat(18, 1fr);
-  &__item {
-    border: 1px solid black;
-  }
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
 
-  &__empty {
-    background-color: aqua;
+.periodic {
+  display: grid;
+  width: 1200px;
+  grid-template: repeat(9, calc(1200px / 18)) / repeat(18, calc(1200px / 18));
+  &__item {
+    margin: 2.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 4px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+    &:hover {
+      transform: scale(1.5);
+      transition: ease-in 200ms;
+    }
+
+    .periodic {
+      &__element {
+        text-decoration: underline dashed $color-black 3px;
+        text-align: center;
+        width: 50%;
+        margin-bottom: 2px;
+        font-size: 22px;
+        //border-bottom: 2px dashed black;
+      }
+
+      &__number {
+        align-self: flex-start;
+        justify-self: end;
+        font-size: 10px;
+      }
+    }
   }
 
   &__react-non-metal {
-    background-color: yellow;
+    background-color: rgb(70, 107, 109);
   }
 
   &__alkali-metal {
-    background-color: rgb(255, 143, 143);
+    background-color: rgb(143, 105, 168);
   }
 
   &__alkaline-earth-metal {
-    background-color: rgba(121, 0, 121, 0.5);
+    background-color: rgb(107, 178, 138);
   }
 
   &__trans-metal {
     background-color: rgb(177, 177, 249);
   }
 
-  &___metalloid {
+  &__metalloid {
     background-color: olive;
   }
 
@@ -47,5 +80,17 @@
 
   &__noble-gas {
     background-color: orange;
+  }
+
+  &__lanthanide {
+    background-color: aqua;
+  }
+
+  &__actinide {
+    background-color: lightblue;
+  }
+
+  &__unknown-prop {
+    background-color: grey;
   }
 }
