@@ -1,5 +1,5 @@
-.vscode
 *.css.map
 *.scss.map
 *.sass.map
 .sass-cache/
+.vscode
