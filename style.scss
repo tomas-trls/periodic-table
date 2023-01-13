@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.periodic {
+  margin: 13% auto 0;
+  display: grid;
+  width: 1000px;
+  grid-template: repeat(9, calc(1000px / 18)) / repeat(18, 1fr);
+  &__item {
+    border: 1px solid black;
+  }
+
+  &__empty {
+    background-color: aqua;
+  }
+
+  &__react-non-metal {
+    background-color: yellow;
+  }
+
+  &__alkali-metal {
+    background-color: rgb(255, 143, 143);
+  }
+
+  &__alkaline-earth-metal {
+    background-color: rgba(121, 0, 121, 0.5);
+  }
+
+  &__trans-metal {
+    background-color: rgb(177, 177, 249);
+  }
+
+  &___metalloid {
+    background-color: olive;
+  }
+
+  &__post-trans-metal {
+    background-color: lightgreen;
+  }
+
+  &__halogen {
+    background-color: violet;
+  }
+
+  &__noble-gas {
+    background-color: orange;
+  }
+}
